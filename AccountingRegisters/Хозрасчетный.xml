@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<AccountingRegister uuid="5d722a5e-1fba-4926-bb01-775faa14b9d2">
+		<InternalInfo>
+			<xr:GeneratedType name="AccountingRegisterRecord.Хозрасчетный" category="Record">
+				<xr:TypeId>e70b74e1-ec06-4903-b6fe-463186c41148</xr:TypeId>
+				<xr:ValueId>3ad10a06-04dd-4d52-aff0-a6edd097bb80</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterExtDimensions.Хозрасчетный" category="ExtDimensions">
+				<xr:TypeId>dbf37442-1011-4d35-bceb-2e864ef8e967</xr:TypeId>
+				<xr:ValueId>261bebce-d5fb-49c6-b8a9-a9cc978487d4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterRecordSet.Хозрасчетный" category="RecordSet">
+				<xr:TypeId>d0648a3f-38a7-4e33-8abe-6a0927d676d6</xr:TypeId>
+				<xr:ValueId>2006d45b-963f-4c54-9b37-809e8643494e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterRecordKey.Хозрасчетный" category="RecordKey">
+				<xr:TypeId>66a669b7-0db5-40a0-9cb5-9f76a43f903d</xr:TypeId>
+				<xr:ValueId>ae7812b5-4e1e-4737-8280-2d5fe25ef09e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterSelection.Хозрасчетный" category="Selection">
+				<xr:TypeId>640348e2-3bcc-4349-b289-13c9929f0e65</xr:TypeId>
+				<xr:ValueId>3ee1e835-4587-46b8-a90d-72e985a12ca8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterList.Хозрасчетный" category="List">
+				<xr:TypeId>929eb32b-0a99-4e63-a015-5b6d8738f1df</xr:TypeId>
+				<xr:ValueId>2bcda39b-f08b-4c34-a00e-8f9bfeb902a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterManager.Хозрасчетный" category="Manager">
+				<xr:TypeId>dc59dad7-7d18-4632-81a6-ce614863e143</xr:TypeId>
+				<xr:ValueId>d2b959e7-acb1-47de-8b21-bf40afebb6fb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Хозрасчетный</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Журнал бухгалтерских проводок</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ChartOfAccounts>ChartOfAccounts.Хозрасчетный</ChartOfAccounts>
+			<Correspondence>true</Correspondence>
+			<PeriodAdjustmentLength>0</PeriodAdjustmentLength>
+			<DefaultListForm/>
+			<AuxiliaryListForm/>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<EnableTotalsSplitting>true</EnableTotalsSplitting>
+			<FullTextSearch>DontUse</FullTextSearch>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="4d195da8-723d-431a-9e87-5815d952db85">
+				<Properties>
+					<Name>Сумма</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ФинансовыеДанные</v8:TypeSet>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Balance>true</Balance>
+					<AccountingFlag/>
+					<ExtDimensionAccountingFlag/>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Resource>
+			<Attribute uuid="e105eb8e-c5e5-4f11-b6c9-489aac889fe4">
+				<Properties>
+					<Name>Содержание</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Содержание</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>150</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</AccountingRegister>
+</MetaDataObject>
